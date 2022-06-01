@@ -113,11 +113,11 @@ let lista = names.map(function(item){
 let listaES6 = names.map(item =>console.log(item.names));
 
 const listaES6_const = (name, nick) =>{
-    ...
+    //...
 }
 
 const listaES6_const_único_elemento = name =>{
-    ...
+   // ...
 }
 
 const square = num => num *num; // Se evita el uso de return.
