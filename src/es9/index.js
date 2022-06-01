@@ -4,7 +4,7 @@
 const obj= {
     name:'Alejandro', 
     nick: 'Alejandro-sin',
-    age: '32';
+    age: '32',
 }
 
 let{name, ...all}=obj;
@@ -48,20 +48,9 @@ helloWorld()
 
 
     const regexData = /([0-9]{4})-([0-9]{2})-([0-9]{2})/  //año, mes, día
-    const match = regexData.exec('2020-04-20')
-    const year = match[1]
-    const month = match[2]
-    const day = match[3]
-    console.log(match)
-    console.log(year, month, day)
-
-    
-    [
-      '2020-04-20',
-      '2020',
-      '04',
-      '20',
-      index: 0,
-      input: '2020-04-20',
-      groups: undefined
-    ]
+    const match = regexData.exec('2020-04-20');
+    /* const year = match[1];
+    const month = match[2];
+    const day = match[3]; */
+    console.log(match);
+    //console.log(year, month, day);
